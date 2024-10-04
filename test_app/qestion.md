@@ -28,7 +28,7 @@ DBへのアクセスが失敗した際に、クラッシュしないように例
 "id" = "123"
 
 ## Q5
-index.htmlに遷移してます。
+index.htmlに遷移し、header関数の前に記載した内容を実行
 
 
 ## 復習問題-3 ##
@@ -42,7 +42,7 @@ index.htmlに遷移してます。
 ④ echoはPHPとHTMLが混在しているときは使えないので短縮表現を使った
 
 ## Q4
-① PDOインスタンス
+③ PDOStatementインスタンス
 
 ## Q5 getTodoList()の返り値について説明してください。
-「connection.php」にて実装されたDBのデータ取得（getAllRecords関数）を呼び出し実行に移すことで、「index.php」でブラウザを開いた際に取得されたDBの内容が表示される。
+「connection.php」にて実装されたDBのデータを取得する関数（getAllRecords関数）を呼び出し実行することで、DB内にあるDERETEされていないデータが呼び出される。
